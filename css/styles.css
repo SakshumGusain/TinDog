@@ -1,0 +1,288 @@
+/*......................... CSS for tags ...........................*/
+/* 
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Ubuntu', sans-serif; 
+*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+/*........................ navbar ............................*/
+
+#title{
+    background-color: #ff4c68;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#logo{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.container-fluid{
+    padding: 1% 7% 7%;
+}
+
+.title-nav{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 650;
+    padding-bottom: 2%;
+}
+
+.info-nav{
+    padding-right: 4%;
+}
+
+.navbar{
+    padding-bottom: 4%;
+}
+
+
+
+/*........................ title ............................*/
+
+.big-heading{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(244, 245, 228);
+    line-height: 1.5;
+    margin-bottom: 11%;
+}
+
+.D-btn{
+    margin: auto 1.5%;
+}
+
+.heading{
+    margin: 3% auto;
+}
+
+.title-div{
+    position: relative;
+}
+
+.title-img{
+    width: 80%;
+    transform: rotate(12deg);
+}
+
+.title-img-div{   
+    position: absolute;
+    left: 20%;
+}
+
+
+
+
+
+/*........................ features ............................*/
+
+#features{
+    width: 88%;
+    padding: 6% 0% 6% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.features-title{
+    font-size: 2rem;
+    color: rgb(62, 61, 61);
+}
+
+.mid-block{
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 600;
+    color: rgb(122, 116, 116);
+
+}
+
+.mid-block-img{
+    color: rgb(243, 126, 145);
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.mid-block-img:hover{
+    color: rgb(255, 0, 0);
+}
+
+.mid-change-width{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*........................ testimonials ............................*/
+
+#testimonials{
+    text-align: center;
+    background-color: rgb(243, 126, 145);
+    color: white;
+}
+
+#testimonials-carousel{
+    text-align: center;
+    background-color: rgb(243, 126, 145);
+    color: white;
+}
+
+.testimonials-img{
+    border-radius: 100%;
+    width: 18%;
+    display: block;
+    margin: auto;
+    padding: 2% 0 2% 0;
+}
+
+.testimonials-container{
+    padding: 0;
+}
+
+.testimonials-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.carousel-item{
+    padding: 6% 10% 6% 10%;
+}
+
+
+
+
+
+
+
+/*........................ press ............................*/
+
+#press{
+    text-align: center;
+    background-color: rgb(243, 126, 145);
+    padding-bottom: 4%;
+}
+
+.press-img{
+    width: 8%;
+    margin: 5px 12px 5px 12px;
+}
+
+
+
+
+
+
+/*........................ pricing ............................*/
+
+#pricing{
+    text-align: center;
+    padding: 6% 9% 6% 9%;
+}
+
+.pricing-head{
+    font-size: 2rem;
+    color: rgb(77, 68, 68);
+}
+
+.pricing-text{
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+.pricing-col{
+    padding: 3% 3%;
+}
+
+
+
+
+
+
+
+/*........................ cta ............................*/
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 8% 5% 8% 5%;
+    line-height: 2;
+}
+
+.cta-heading{
+    font-size: 3rem;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding: 4% 3%;
+    color: whitesmoke;
+}
+
+.cta-btn{
+    margin: 1% 2% 0%; 
+}
+
+
+
+
+
+/*........................ footer ............................*/
+
+#footer{
+    text-align: center;
+    padding: 2% 2%;
+}
+
+.footer-link{
+    padding: 1.5%;
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-link:hover{
+    color: black;
+}
+
+
+
+@media (max-width: 992px){
+    .heading{
+        text-align: center;
+        margin: 3% auto;position: static;
+    }
+
+    .title-div{
+        text-align: center;
+        position: static;
+    }
+
+    .title-img-div{
+        text-align: center;
+        position: static;
+    }
+
+    .title-img{
+        width: 40%;
+        transform: rotate(0deg);
+    }
+
+    #features{
+        position: static;
+        z-index: 0;
+    }
+
+}
