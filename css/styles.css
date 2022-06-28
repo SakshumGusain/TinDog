@@ -5,6 +5,7 @@ font-family: 'Ubuntu', sans-serif;
 */
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -13,10 +14,27 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+
+
+/*........................ sections ............................*/
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+    color: grey;
+}
+
+
+
+
+
 /*........................ navbar ............................*/
 
 #title{
-    background-color: #ff4c68;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -47,13 +65,15 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+
+
+
 /*........................ title ............................*/
 
 .big-heading{
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 3rem;
     font-weight: 900;
-    color: rgb(244, 245, 228);
     line-height: 1.5;
     margin-bottom: 11%;
 }
@@ -63,6 +83,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .heading{
+    text-align: left;
     margin: 3% auto;
 }
 
@@ -84,6 +105,8 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+
+
 /*........................ features ............................*/
 
 #features{
@@ -93,19 +116,15 @@ h1, h2, h3, h4, h5, h6{
     margin-right: auto;
     position: relative;
     z-index: 1;
-    background-color: white;
 }
 
 .features-title{
     font-size: 2rem;
-    color: rgb(62, 61, 61);
 }
 
 .mid-block{
-    text-align: center;
     line-height: 1.5;
     font-weight: 600;
-    color: rgb(122, 116, 116);
 
 }
 
@@ -132,15 +151,11 @@ h1, h2, h3, h4, h5, h6{
 /*........................ testimonials ............................*/
 
 #testimonials{
-    text-align: center;
     background-color: rgb(243, 126, 145);
-    color: white;
 }
 
 #testimonials-carousel{
-    text-align: center;
     background-color: rgb(243, 126, 145);
-    color: white;
 }
 
 .testimonials-img{
@@ -173,7 +188,6 @@ h1, h2, h3, h4, h5, h6{
 /*........................ press ............................*/
 
 #press{
-    text-align: center;
     background-color: rgb(243, 126, 145);
     padding-bottom: 4%;
 }
@@ -191,13 +205,12 @@ h1, h2, h3, h4, h5, h6{
 /*........................ pricing ............................*/
 
 #pricing{
-    text-align: center;
     padding: 6% 9% 6% 9%;
 }
 
 .pricing-head{
     font-size: 2rem;
-    color: rgb(77, 68, 68);
+    color: rgb(76, 16, 69);
 }
 
 .pricing-text{
@@ -218,8 +231,6 @@ h1, h2, h3, h4, h5, h6{
 /*........................ cta ............................*/
 
 #cta{
-    background-color: #ff4c68;
-    text-align: center;
     padding: 8% 5% 8% 5%;
     line-height: 2;
 }
@@ -229,12 +240,8 @@ h1, h2, h3, h4, h5, h6{
     width: 70%;
     margin: 0 auto 0 auto;
     padding: 4% 3%;
-    color: whitesmoke;
 }
 
-.cta-btn{
-    margin: 1% 2% 0%; 
-}
 
 
 
@@ -243,7 +250,6 @@ h1, h2, h3, h4, h5, h6{
 /*........................ footer ............................*/
 
 #footer{
-    text-align: center;
     padding: 2% 2%;
 }
 
@@ -256,6 +262,7 @@ h1, h2, h3, h4, h5, h6{
 .footer-link:hover{
     color: black;
 }
+
 
 
 
